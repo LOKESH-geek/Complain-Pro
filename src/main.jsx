@@ -14,7 +14,7 @@ ReactDOM.createRoot(
 ).render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename="/Complain-Pro">
         <App />
       </BrowserRouter>
     </Provider>
